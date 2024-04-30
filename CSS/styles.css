@@ -1,0 +1,12 @@
+img{ 
+    width: 35%;
+    height: 35%;
+    }
+   .bold-text { font-weight: bold; }
+   .blue-text {color:lightblue; }
+   article ::first-letter {font-style: italic; }
+   article {font-size: 18px }
+   a:link {color: lightblue;}
+   a:hover {color: navy;}
+   
+body {font-size: 24px;}
