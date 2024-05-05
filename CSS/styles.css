@@ -1,12 +1,472 @@
-img{ 
-    width: 35%;
-    height: 35%;
-    }
-   .bold-text { font-weight: bold; }
-   .blue-text {color:lightblue; }
-   article ::first-letter {font-style: italic; }
-   article {font-size: 18px }
-   a:link {color: lightblue;}
-   a:hover {color: navy;}
+body {
+    display: grid;
+   justify-content: center;
+}
+.checkbody {
+    justify-content: stretch;
+}
+header {
+    justify-items: start;
+  background-color: #D9D9D9;
+  width: 100%;
+}
+
+nav {
+    display: grid;
+    min-width: 500px;
+}
+.CSLogofoot {
+    max-width: 100px;
+    min-height: 120px;
+}
+.CSLogo {
+    width: 100px;
+    height: 120px;
+}
+img {
+    height: 100%;
+    width: 100%;
+   }
+h2 {
+    font-size: 34px;
+    color: #FF5252;
+}
+h5 {
+    font-size: 46px;
+    color: #000099;
+
+}
+.container-one {
+ display: grid;
+ grid-gap: 5px;
+ justify-content: center;
+ background-color: #D9D9D9;
+
+}
+.container-two {
+    display: grid;
+   background-color: #000000;
+
+   justify-content: center;
+   grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr;
+   height: 200px;
+   width: 100%;
+   margin-bottom: 55px;
+}
+.check1 {
+grid-column: 2/3;
+padding-left: 45px;
+}
+.checkout2 {
+    grid-column: 1/2;
+}
+.checkimg2 {
+    height: 200px;
+}
+select {
+    width: 104px;
+}
+footer{
+    display: grid;
+    background-color: #D9D9D9;
+    color: #000099;
+    grid-template-rows: 1fr;
+    grid-template-columns: .75fr 1fr;
+    margin-top: 50px;
+}
+.footerlogo{
+    grid-column: 1/2;
+    height: 120px;
+}
+
+.contactinfo {
+    grid-column: 2/3;
+   justify-content: center;
+   font-size: 16px;
+   padding-top: 20px;
+}
+ul {
+   list-style-type: none;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: #000099;
+}
+.nav-bar {
+    grid-column:1;
+}
+.navigation {
+    grid-column:2/3; 
+    color: #000099;
+    font-size: 22px;
+    justify-content: center;
+}
+.menu-item:hover {
+    color: #FF5252;
+}
+
+.div-logo { 
+    position: relative; 
+    grid-column: 1/2; 
+    grid-row:1;
+}
+.ourmission, .ourstory, .whyusli {
+    font-size: 18px;
+}
+.newreleases{
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 1/2;
+    grid-column: 1/2;
    
-body {font-size: 24px;}
+}
+.onsale {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.professional {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+.casual {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.gym {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.golf {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.athletic {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.custom {
+    background-color: #000099;
+    color: #ffffff;
+    font-size: 18px;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.productcategories {
+display: grid;
+grid-template-rows: 1.25fr 1.25fr 1.25fr 1.25fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  padding-left: 25px;
+}
+
+.productimgs {
+    width: 182px;
+    height: 136px;
+}
+.newreleases, .onsale, .professional, .casual, .gym, .golf, .athletic, .custom{
+    width: 182px;
+}
+.newreleases:hover, .onsale:hover, .professional:hover, .casual:hover, .gym:hover, .golf:hover, .athletic:hover, .custom:hover {
+    background-color: #FF5252;
+    color: #000099;
+}
+.addtocart {
+    width: 182px;
+    background-color: #FF5252;
+    color: #000099;
+    font-size:18px;
+}
+.main1 {
+    background-color: #D9D9D9;
+}
+.container {
+    justify-content: center;
+}
+.CSLogolg {
+    justify-content: center;
+    height: 250px;
+    width: 350px;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+button {
+    width: 360px;
+    height: 40px;
+    font-size: 28px;
+}
+.contshop {
+    background-color: #000099;
+    color: #FF5252;
+}
+.checkbutton {
+    color: #000099;
+    background-color: #FF5252;
+    justify-content: start;
+}
+
+.contshop:hover {
+    background-color: black;
+    color: white;
+}
+.checkbutton:hover {
+    color: white;
+    background-color: black;
+}
+.cost {
+    width: 360px;
+    height: 40px;
+    padding-left:175px;
+    color: #FF5252;
+    font-size: 25px;
+
+}
+input:hover {
+    border-color: #000099;
+}
+.main, .whyus {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+h4 {
+    color: #000099;
+    font-size: 26px;
+}
+.checkform {
+    background-color: #000000;
+    color: #ffffff;
+}
+h3 {
+    color: #ffffff;
+}
+.checkform {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+label {
+    color: #FF5252;
+    font-size: 24px;
+}
+.submit {
+    background-color:#FF5252;
+    color: #000099;
+}
+
+
+
+
+@media screen and (min-width: 769px) { 
+    h2 {
+        font-size: 40px;
+    }
+    .container {
+    display: grid;
+    grid-template-rows: 1fr .5fr;
+    grid-template-columns: .5fr 1fr;
+    margin-top: 30px;
+ }
+.CSLogolg {
+    grid-column: 1/2;
+    grid-row: 1;
+    height: 600px;
+    width: 100%;
+}
+.CSLogo {
+    width: 150px;
+    height: 225px;
+}
+.maingrid {
+    grid-column: 2/3;
+    grid-row: 1;
+    padding: 0px 50px 30px 50px;
+    margin-top: 20px;
+}
+.whyus {
+grid-row: 2;
+grid-column: 1/3;
+height: 300px;
+}
+.whyusli {
+    font-size: 25px;
+}
+.checkgrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 820px 600px;
+}
+.checkleft {
+    grid-column: 1/2;
+    margin-left: 70px;
+}
+.checkright {
+    grid-column: 2/3;
+  margin-right: 140px;
+}
+
+.contshop, .checkbutton, .cost {
+    width: 450px;
+    height: 50px
+}
+button {
+    font-size: 42;
+}
+.cost {
+    font-size: 37.5px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-left:0px;
+}
+.checkbutton {
+    margin-top: 50px;
+}
+h3 {
+    color: #ffffff;
+}
+.productcategories {
+display: grid;
+grid-template-rows: 2fr 2fr;
+grid-template-columns: 2fr 2fr 2fr 2fr;
+grid-gap: 30px;
+}
+.productimgs {
+    width: 227.5px;
+    height: 170px;
+}
+.newreleases, .onsale, .professional, .casual, .gym, .golf, .athletic, .custom{
+    width: 227.5px;
+}
+.addtocart {
+    width: 227.5px;
+    background-color: #FF5252;
+    color: #000099;
+}
+h5 {
+    font-size: 65px;
+    color:#000099;
+}
+.price {
+    height: 175px;
+    margin-bottom: 50px;
+}
+.submit { 
+    height: 40px;
+    width: 227.5px;
+}
+.container-two {
+    width: 90%;
+}
+.logo {
+    height: 250px;
+}
+.contactinfo {
+    font-size: 27px;
+}
+.CSLogofoot {
+    height: 100%;
+    width: 145px;
+}
+.footerlogo{
+    height: 166px;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    grid-template-columns: 1fr;
+}
+.div-logo {
+grid-column: 1/2;
+}
+.nav-bar {
+    width: 100%;
+}
+.navigation {
+    grid-row: 2;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mission {
+    grid-column: 1/2;
+height: 35px;
+}
+.products {
+    grid-column:2/3;
+}
+.checkout {
+    grid-column: 3/4;
+}
+.checkbody {
+    justify-content: center;
+}
+}
+
+
+
+
+
+html {
+    font-weight: 400;
+    text-align: center;
+  }
+
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+.jetbrains {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.archivo{
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+h2, .checkbutton, .cost, h3 {
+    font-family: "JetBrains Mono", monospace;
+}
+.ourmission, .ourstory, .whyusli, .addtocart, .newreleases, .onsale, .professional, .casual, .gym, .golf, .athletic, .custom, h5, .contshop, .find, .improve  {
+    font-family: "Archivo", sans-serif;
+}
+.contactinfo, .navigation {
+    font-family: "Inter", sans-serif;
+}
